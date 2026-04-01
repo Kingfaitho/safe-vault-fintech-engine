@@ -1,0 +1,30 @@
+bigfaitho@DESKTOP-F557NH7:~/mycalculatordapp$ anchor test --skip-build
+ 
+Found a 'test' script in the Anchor.toml. Running it as a test suite! 
+
+Running test suite: "/home/bigfaitho/mycalculatordapp/Anchor.toml"    
+
+yarn run v1.22.22
+$ /home/bigfaitho/mycalculatordapp/node_modules/.bin/ts-mocha -p ./tsconfig.json -t 1000000 'tests/**/*.ts'
+
+
+  mycalculatordapp
+Greeting: Welcome to my Calculator
+    ✔ Creates a calculator (484ms)
+3 + 5 = 8
+    ✔ Adds two numbers (405ms)
+10 - 4 = 6
+    ✔ Subtracts two numbers (420ms)
+3 x 7 = 21
+    ✔ Multiplies two numbers (417ms)
+10 / 3 =  3 remainder 1
+    ✔ Divides two numbers (416ms)
+Division by zero correctly rejected!
+    ✔ Prevents division by zero
+
+
+  6 passing (2s)
+
+Done in 4.01s.
+Error: No such file or directory (os error 2)
+bigfaitho@DESKTOP-F557NH7:~/mycalculatordapp$

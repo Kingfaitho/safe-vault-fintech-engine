@@ -1,0 +1,11 @@
+[package]
+name = "safe-vault"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+rust_decimal = { version = "1.34", features = ["maths"] }
+rust_decimal_macros = "1.34"
+chrono = "0.4"
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.1"
